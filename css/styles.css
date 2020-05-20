@@ -1,0 +1,130 @@
+body {
+  color: #120136
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #3e64ff;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #3e64ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0f4c75;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border: dotted #888888 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+ }
+p {
+  line-height: 2;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+.top-container {
+  background-color: #ecfcff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #5edfff;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.myprofileimg {
+  width: 17%;
+}
+
+.webdevelopement {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.datascience{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.myButton {
+	box-shadow:inset -3px -2px 12px -1px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:29px;
+	border:2px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:19px 30px;
+	text-decoration:none;
+	text-shadow:2px 10px 0px #1570cd;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+  color: white;
+  font-size: 0.80rem;
+  padding: 20px 0;
+}
